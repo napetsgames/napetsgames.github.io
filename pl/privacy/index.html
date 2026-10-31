@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Polityka prywatności — Polemicon</title>
+<link rel="alternate" hreflang="en" href="/privacy/">
+<link rel="alternate" hreflang="ru" href="/ru/privacy/">
+<link rel="alternate" hreflang="pl" href="/pl/privacy/">
+<link rel="stylesheet" href="/assets/site.css">
+</head>
+<body>
+
+<header class="wrap site-head">
+<a class="logo small" href="/pl/" aria-label="Napets Games — strona główna"><img src="/assets/img/napets-games.png" alt="Napets Games"></a>
+<nav class="langs" aria-label="Język">
+<a href="/privacy/" lang="en" hreflang="en">EN</a>
+<a href="/ru/privacy/" lang="ru" hreflang="ru">RU</a>
+<span aria-current="page">PL</span>
+</nav>
+</header>
+
+<main class="wrap doc">
+<nav class="toc" aria-label="Na tej stronie">
+<span class="label">Na tej stronie</span>
+<a href="#s1">Administrator danych</a>
+<a href="#s2">AI, z którym debatujesz</a>
+<a href="#s3">Twój klucz API</a>
+<a href="#s4">Pisanie do autora</a>
+<a href="#s5">Twoje prawa</a>
+<a href="#s6">Co zostaje na Twoim komputerze</a>
+<a href="#s7">Bez analityki</a>
+<a href="#s8">Ta strona internetowa</a>
+<a href="#s9">Kontakt</a>
+</nav>
+<article class="sheet">
+<p class="eyebrow">Polemicon · Napets Games</p>
+<h1>Polityka prywatności — Polemicon</h1>
+<p class="meta"><em>Polemicon: The Rune of Thirty</em> i jego wersja demonstracyjna oraz strona napetsgames.com. Ostatnia aktualizacja: 30 października 2026 r. <a href="/privacy/" lang="en" hreflang="en">In English</a> · <a href="/ru/privacy/" lang="ru" hreflang="ru">По-русски</a></p>
+<p>Polemicon tworzy jedna osoba — ja, Stepan Diadorov. Napets Games to nazwa, pod którą tworzę gry, a nie spółka. Ta strona prostymi słowami wyjaśnia, co gra robi z Twoimi danymi.</p>
+<p class="short"><strong>W skrócie:</strong> sama gra niczego o Tobie nie zbiera — nie ma konta, analityki ani telemetrii. Sama gra wysyła dane z Twojego komputera tylko w dwóch przypadkach: Twoje wypowiedzi w debacie trafiają do wybranej przez Ciebie usługi AI (a głos — do OpenAI, jeśli wybierzesz transkrypcję w OpenAI zamiast na swoim komputerze), a list — do mnie, kiedy wyślesz go z formularza „Napisz do autora”.</p>
+<h2 id="s1">Administrator danych</h2>
+<p>Administratorem danych z listów, które wysyłasz mi z gry, w rozumieniu ogólnego rozporządzenia o ochronie danych (RODO) jestem ja, Stepan Diadorov, osoba prywatna zamieszkała pod adresem ul. Okoniowa 11/21, 91-498 Łódź. Kontakt: <strong>privacy@napetsgames.com</strong>.</p>
+<h2 id="s2">AI, z którym debatujesz</h2>
+<ul>
+<li>Przeciwnika i sędziego gra model AI usługi, którą wybierasz w launcherze lub w Ustawieniach. Przy każdej turze gra wysyła tej usłudze temat, charakter przeciwnika i zasady, dotychczasowy przebieg debaty oraz Twoją nową wypowiedź. Tą samą drogą trafiają tam Twoje odpowiedzi w ćwiczeniach Treningu i debata, którą prosisz nauczyciela omówić.</li>
+<li>Nie biorę udziału w tej wymianie. Gra wysyła Twoje wypowiedzi prosto z Twojego komputera do usługi — z Twojego konta i na jego warunkach. Nie widzę ich, nie otrzymuję ani nie przechowuję, a usługa nie działa na moje zlecenie.</li>
+<li>O tym, co dalej dzieje się z tym tekstem, decyduje usługa według własnych zasad: <a href="https://openai.com/policies/privacy-policy/">OpenAI</a>, <a href="https://www.anthropic.com/legal/privacy">Anthropic</a>, <a href="https://openrouter.ai/privacy">OpenRouter</a> (który przekazuje zapytanie dostawcy wybranego przez Ciebie modelu) albo usługa pod adresem wpisanym przez Ciebie.</li>
+<li>Przy subskrypcji gra przekazuje każdą turę wyłącznie wewnątrz Twojego komputera (adres 127.0.0.1) uruchomionej przez Ciebie aplikacji AI — Claude Code, Codex, Gemini CLI lub Claude Desktop — a ta wysyła ją do własnej usługi na zasadach Twojej subskrypcji.</li>
+<li>Przy modelu lokalnym na Twoim komputerze (Ollama, LM Studio) Twoje wypowiedzi nie opuszczają komputera.</li>
+<li>Jeśli zamiast pisać mówisz do mikrofonu, nagranie zamienia na tekst Whisper — model rozpoznawania mowy instalowany razem z grą i działający na Twoim komputerze: nagranie nie opuszcza komputera. Tak jest domyślnie — pole wyboru „Transkrypcja głosu na tym komputerze” w launcherze i w Ustawieniach. Tylko jeśli je odznaczysz, nagranie trafia do OpenAI, które zamienia je na tekst — z Twoim kluczem OpenAI i na <a href="https://openai.com/policies/privacy-policy/">zasadach OpenAI</a> — bez względu na to, która usługa ocenia Twoją debatę, nawet jeśli nie jest to OpenAI. Bez klucza OpenAI mikrofon jest wtedy wyłączony. W obu przypadkach gra trzyma nagranie tylko w pamięci i nigdy nie zapisuje go na dysku; powstały tekst trafia do Twojej wypowiedzi, a do usługi AI — dopiero gdy ją wyślesz, tak jak tekst wpisany ręcznie.</li>
+<li>Gra nie wysyła imienia, konta ani identyfikatora urządzenia — nie ma żadnego z nich.</li>
+</ul>
+<h2 id="s3">Twój klucz API</h2>
+<ul>
+<li>Jest przechowywany wyłącznie na Twoim komputerze, w pliku <code>api_keys.dat</code>, zaszyfrowany przez Windows (DPAPI) dla Twojego konta użytkownika Windows.</li>
+<li>Trafia tylko do usługi, do której należy, w nagłówku autoryzacji jej zapytań (tury, zamiana mowy na tekst, lista modeli, test połączenia w launcherze). Nigdy nie jest zapisywany w logu gry i nigdy nie trafia do listu: przed wysłaniem gra wycina z listu każdy klucz, a po mojej stronie list jest sprawdzany jeszcze raz.</li>
+</ul>
+<h2 id="s4">Pisanie do autora</h2>
+<ul>
+<li>List zostaje wysłany dopiero po naciśnięciu „Wyślij”. Zawiera napisany przez Ciebie tekst (albo zgłaszaną wypowiedź AI), wybraną etykietę, Twój adres e-mail, jeśli go podasz (nieobowiązkowo — służy tylko do odpowiedzi), oraz informacje techniczne: wersję i numer kompilacji gry, pełna gra czy demo, język gry i język odpowiedzi, usługę AI i model, wersję Windows, rozdzielczość ekranu, a także poziom trudności otwartego zapisu i liczbę znaczników Runy postawionych w nim na mapie. Nigdy Twojego klucza i nigdy adresu usługi.</li>
+<li>Załączniki trafiają do mnie tylko wtedy, gdy zaznaczysz pole wyboru, które przy każdym otwarciu formularza jest puste: końcówka logu gry, zapis bieżącej lub ostatniej debaty (wypowiedzi obu stron, werdykty, wahania nastrojów publiczności) oraz — jeśli formularz otwarto klawiszem F8 — zrzut ekranu z tej chwili. Twoja nazwa użytkownika Windows jest wycinana ze wszystkich ścieżek plików, które zawiera list.</li>
+<li>Pisanie do mnie jest dobrowolne. Bez adresu e-mail przeczytam list, ale nie mam jak na niego odpowiedzieć. Jeśli masz mniej niż 16 lat, zapytaj rodzica, zanim wyślesz list ze swoim adresem e-mail.</li>
+<li>Wykorzystuję list, aby go przeczytać, odpowiedzieć Ci i poprawić grę. Podstawą prawną jest mój prawnie uzasadniony interes we wspieraniu i ulepszaniu mojej gry (art. 6 ust. 1 lit. f RODO).</li>
+<li>List trafia do niewielkiego skryptu na moim koncie Google Workspace. Skrypt dopisuje list do Arkusza Google, umieszcza załączniki w folderze na Dysku Google, do którego dostęp mam tylko ja, i przesyła mi list e-mailem. Google przetwarza go w moim imieniu jako podmiot przetwarzający, na podstawie <a href="https://workspace.google.com/terms/dpa_terms.html">Cloud Data Processing Addendum</a>, i może przechowywać go w Stanach Zjednoczonych; Google LLC ma certyfikat w ramach EU–US Data Privacy Framework (Ram ochrony danych UE–USA), dla których Komisja Europejska 10 lipca 2023 r. stwierdziła odpowiedni stopień ochrony. Jeśli listu nie da się wysłać, czeka on w folderze gry na Twoim komputerze i zostaje wysłany przy jednym z kolejnych uruchomień.</li>
+<li>Przechowuję listy tak długo, jak są mi potrzebne, żeby Ci odpowiedzieć i rozwiązać problem, i usuwam je najpóźniej po 12 miesiącach.</li>
+</ul>
+<h2 id="s5">Twoje prawa</h2>
+<p>Możesz zażądać ode mnie kopii swoich listów, ich sprostowania, usunięcia, ograniczenia przetwarzania lub przekazania ich w formacie nadającym się do przenoszenia, a także wnieść sprzeciw wobec ich przetwarzania. Napisz na privacy@napetsgames.com i podaj przybliżoną datę listu oraz adres e-mail, jeśli został w nim podany; odpowiadam w ciągu miesiąca.</p>
+<p>Masz też prawo wnieść skargę do Prezesa Urzędu Ochrony Danych Osobowych (Prezes UODO), ul. Stanisława Moniuszki 1A, 00-014 Warszawa, <a href="https://uodo.gov.pl/">uodo.gov.pl</a> — albo do organu nadzorczego w swoim kraju UE.</p>
+<p>Nie podejmuję wobec Ciebie zautomatyzowanych decyzji. Werdykty AI są częścią gry i wpływają tylko na wynik debaty.</p>
+<h2 id="s6">Co zostaje na Twoim komputerze</h2>
+<p>Zapisy gry, ustawienia, statystyki błędów logicznych, zapisy pięciu ostatnich debat, listy czekające na wysłanie, plik klucza i log gry znajdują się w folderze <code>%USERPROFILE%\AppData\LocalLow\Napets Games\Polemicon</code>. Ustawienia okna i ekranu Unity przechowuje w rejestrze Windows (<code>HKEY_CURRENT_USER\Software\Napets Games\Polemicon</code>). Nic z tego nie jest nigdzie wysyłane — poza tym, co dołączysz do listu. Aby usunąć wszystko, usuń ten folder (po odinstalowaniu gry może on pozostać na dysku) oraz klucz rejestru <code>HKEY_CURRENT_USER\Software\Napets Games\Polemicon</code>.</p>
+<h2 id="s7">Bez analityki</h2>
+<p>Gra nie ma analityki, telemetrii, reklam ani śledzenia; usługi analityki i raportowania awarii Unity są wyłączone. Sam silnik Unity może wysyłać Unity Technologies anonimowe informacje o sprzęcie (na przykład o karcie graficznej i wersji Windows) zgodnie z <a href="https://unity.com/legal/privacy-policy">Polityką prywatności Unity</a>; gra niczego do nich nie dodaje. Jeśli grasz przez Steam, to, co zbiera sam Steam, opisuje <a href="https://store.steampowered.com/privacy_agreement/">Polityka prywatności Steam</a>.</p>
+<h2 id="s8">Ta strona internetowa</h2>
+<p>napetsgames.com nie używa plików cookie, analityki ani formularzy i niczego nie pobiera z innych serwerów. Strona jest hostowana w GitHub Pages; GitHub rejestruje adresy IP odwiedzających, aby chronić bezpieczeństwo usługi — zgodnie z <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub Privacy Statement</a>.</p>
+<h2 id="s9">Kontakt</h2>
+<p>E-mail: <strong>privacy@napetsgames.com</strong> — albo formularz „Napisz do autora” w grze. Gdy ta polityka się zmieni, na tej stronie pojawi się nowa data.</p>
+</article>
+</main>
+
+<footer class="site-foot">
+<div class="wrap">
+<address class="provider">
+<span class="label">Kontakt / Usługodawca</span>
+<span class="name">Stepan Diadorov</span>
+<span>ul. Okoniowa 11/21, 91-498 Łódź, Polska</span>
+<span><a href="mailto:privacy@napetsgames.com">privacy@napetsgames.com</a> · <a href="mailto:hello@napetsgames.com">hello@napetsgames.com</a></span>
+</address>
+<div class="foot-links">
+<a href="/pl/privacy/">Polityka prywatności</a>
+<a href="/pl/terms/">Regulamin „Napisz do autora”</a>
+<span class="faint">© 2026 Stepan Diadorov · Napets Games</span>
+</div>
+</div>
+</footer>
+
+</body>
+</html>
